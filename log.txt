@@ -1,0 +1,11 @@
+commit 92b91eced2f040e0180b66ce22107a3cda68edf5
+Author: Nicolay <myemail@localhost>
+Date:   Tue Apr 28 19:33:45 2020 +0300
+
+    add task1\status.txt
+
+commit b7d600bdc17dd57c9e6f3ee6961ca7a2d0bfe0bd
+Author: Nicolay <myemail@localhost>
+Date:   Tue Apr 28 19:24:31 2020 +0300
+
+    add .gitignore
