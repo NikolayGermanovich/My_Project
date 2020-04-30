@@ -28,6 +28,8 @@ body {
     right: 0;
     left: 0;
     z-index: 1030;
+	background: linear-gradient(to left, #0097ff 0%, #ccf3ff 100%);
+	
 }
 .navbar-dark .navbar-brand {
     color: #fff;
@@ -114,13 +116,13 @@ a {
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 .btn-outline-success {
-    color: #28a745;
-	border-color: #28a745;
+	color: #caf2ff;
+    border-color: #ccf3ff;
 }
 .btn-outline-success:hover {
     color: #fff;
-	background-color: #28a745;
-	border-color: #28a745;
+	background-color: #24a7ff;
+    border-color: #166fab;
 }
 .fixed-bottom {
     position: fixed;
@@ -128,7 +130,9 @@ a {
     bottom: 0;
     left: 0;
     z-index: 1030;
-}
+
+	background: linear-gradient(to right, #0097ff 0%, #ccf3ff 100%);
+	}
 .fixed-top .navbar-brand{
 	margin-left: auto;
 	margin-right: auto;
@@ -188,7 +192,10 @@ hr {
 	-ms-user-select: none;
 	user-select: none;
 }
-
+.tiles_head_text{
+    margin: 0 auto;
+text-align:center;
+	}
 @media (min-width: 768px) {
 	.bd-placeholder-img-lg {
 		font-size: 3.5rem;
